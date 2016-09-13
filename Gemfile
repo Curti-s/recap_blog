@@ -21,6 +21,7 @@ gem 'jbuilder', '~> 2.0'
 gem 'redcarpet', '~> 3.3', '>= 3.3.4'
 gem 'friendly_id', '~> 5.1'
 gem 'pygments.rb', '~> 0.6.3'
+gem 'will_paginate', '~> 3.1'
 # bundle exec rake doc:rails generates the API under doc/api.
 gem 'sdoc', '~> 0.4.0', group: :doc
 
