@@ -1,0 +1,38 @@
+<div class="wrapper clearfix">
+      <div class="col_1 homepage_content about">
+        <h2>About</h2>
+        <hr>
+        <p>
+          I am a badass Ruby on Rails developer &amp; aspiiring
+          software engineer living in Nairobi Kenya.
+        </p>
+        <p>
+          By day I work as a developer and by night I brace
+          myself with coding skills from <a href='#'>Mackenzie Child></a>
+          who is a really resourceful Ruby on Rails developer and designer.
+        </p>
+        <p>
+          You can find me snapping on Snapchat,fiddling with
+          140 characters on Twitter or replenishing my repo
+          with applications that I intend to develop in Github.
+        </p>
+      </div>
+      <div class="col_2 homepage_content">
+        <h2>Stuff I might write</h2>
+        <hr>
+        <% @posts.each do |post| %>
+        <h3><%= link_to post.title, post %></h3>
+        <p class='date'><%= post.created_at.strftime('%A %b %d') %></p>
+        <% end %>
+      </div>
+      <div class="col_3 homepage_content">
+        <h2>Stuff I might build</h2>
+        <hr>
+        <h3><a href='#'>Unicasts</a></h3>
+        <p class='date'>Sunday 4th September</p>
+        <h3><a href="#">The Curti-s' community</a></h3>
+        <p class='date'>Sunday 4th September</p>
+        <h3><a href="#">12in12Chalenge</a></h3>
+        <p class='date'>Sunday 4th September</p>
+      </div>
+    </div>
