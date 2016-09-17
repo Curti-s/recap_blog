@@ -16,6 +16,9 @@
         <%= link_to "Articles", posts_path %>
         <%= link_to "Projects", projects_path %>
         <%= link_to "Contacts", new_contact_path %>
+        <% if model_signed_in? %>
+          <%= link_to "Logout", destroy_model_session_path, method: :delete %>
+          <% end %>
       </nav>
     </header>
     <% if notice %>

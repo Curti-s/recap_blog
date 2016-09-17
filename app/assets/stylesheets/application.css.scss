@@ -380,5 +380,11 @@ input[type='submit']:hover{
 .hidden {
   display: none;
 }
+
+.notice, .alert {
+  text-align: center;
+  padding: 1em 0;
+  border-bottom: 1px solid #e9e9e9;
+}
 @import "normalize";
 @import "_pygments";
