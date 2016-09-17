@@ -376,5 +376,9 @@ input[type='submit']:hover{
   margin: 4rem auto;
   text-align: center;
 }
+
+.hidden {
+  display: none;
+}
 @import "normalize";
 @import "_pygments";
