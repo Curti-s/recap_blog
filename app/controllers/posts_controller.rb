@@ -1,6 +1,7 @@
 class PostsController < ApplicationController
 
   before_action :find_post, only: [:show, :edit, :update, :destroy]
+  before_action :authenticate_model!, except: [:index, :show]
 
   # Index action to render all Posts
   def index

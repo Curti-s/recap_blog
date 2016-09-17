@@ -23,6 +23,7 @@ gem 'friendly_id', '~> 5.1'
 gem 'pygments.rb', '~> 0.6.3'
 gem 'will_paginate', '~> 3.1'
 gem 'mail_form', '~> 1.5', '>= 1.5.1'
+gem 'devise', '~> 4.2'
 # bundle exec rake doc:rails generates the API under doc/api.
 gem 'sdoc', '~> 0.4.0', group: :doc
 
